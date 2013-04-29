@@ -1,0 +1,171 @@
+li
+{
+	float:left;
+	color: #369;
+	font-size: 12px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+nav
+{
+	padding-top: 21px;
+	margin-left: 48px;
+	margin-right: 30px;
+}
+h1
+{
+	margin: 20px 270px 0px 270px;
+	font-weight: 400;
+	font-style: bolder;
+	font-size: 58px;
+	clear: both;
+	line-height: 1.0em;
+	margin-bottom: 20px;
+	letter-spacing: -2px;
+	color: #232323;
+}
+h3
+{
+  font-weight: 500;
+}
+.menu
+{
+	float:right;
+	padding-right: 20px;
+}
+.happy
+{
+	float: left;
+	color: #999;
+}
+body
+{
+	text-align: center;
+}
+.largelogo
+{
+	padding-top: 33px;
+	clear:both;
+}
+.apps , .apps2
+{
+	padding-top: 6px;
+	margin: 20px 360px 0px 360px;
+	border-spacing: 36px 0px ;
+}
+table.apps td
+{
+	padding: 20px 20px 0px 20px;
+	color:#369;
+	width: 180px;
+	background-color:#E8E8E8 ;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0.4em;
+}
+table.apps2 td
+{
+	padding: 20px 20px 0px 20px;
+	color:#369;
+	width: 180px;
+	background-color:white ;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0.4em;
+}
+
+h2
+{
+	color:#369;
+}
+h4
+{
+	color:#cc0000;
+	font-family:Verdana;
+	font-size:14px;
+}
+h5
+{
+	color:black;
+	font-family:Verdana;
+	font-weight:normal;
+}
+.stars
+{
+	padding-top: 40px;
+	font-size:30px;
+	color:#999;
+	font-family:Verdana;
+}
+.millions
+{
+	font-size:50px;
+}
+article
+{
+	text-align: left;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.3em;
+	color: #666;
+}
+table.art 
+{
+	margin: 0px 300px 0px 300px;	
+}
+#companieslogo
+{
+	padding-top: 20px;
+}
+h6
+{
+	float: left;
+	font-size: 58px;
+	font-weight: 500;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+	color: #ccc;
+}
+.list
+{	
+	margin: 0px 300px 0px 300px;	
+	border-collapse:separate; 
+	border-spacing: 0em 2em;
+	font-size:15px;
+}
+h7
+{
+	text-align: center;	
+	font-family: Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;
+	font-size: 16px;
+	margin: 5px 0;
+	color: #cc0000;
+
+}
+.apps2 h2 
+{
+	color:black;
+	font-family:Verdana;
+	font-size:18px;
+}
+q
+{
+	color: #888;
+	font-weight: normal;
+	text-align: center;
+	font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+	font-style: italic;
+	font-size: 22px;
+	margin: 35px 0 10px;
+}
+.center
+{
+	text-align: center;
+}
+.rework
+{
+	
+	margin: 0px 222px 0px 300px;
+}
+
+
+
