@@ -13,24 +13,19 @@ nav
 }
 h1
 {
-	text-align: inherit;
-	margin: inherit;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width:810px;
-	font-weight: 500;0;
+	margin: 20px 270px 0px 270px;
+	font-weight: 400;
 	font-style: bolder;
 	font-size: 58px;
-	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 	clear: both;
 	line-height: 1.0em;
+	margin-bottom: 20px;
 	letter-spacing: -2px;
 	color: #232323;
 }
 h3
 {
   font-weight: 500;
-  font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 }
 .menu
 {
@@ -49,11 +44,8 @@ h3
 	font-size: 12px;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
-.supercontainer
+body
 {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 .largelogo
 {
@@ -63,6 +55,7 @@ h3
 .apps , .apps2
 {
 	padding-top: 6px;
+	margin: 20px 360px 0px 360px;
 	border-spacing: 36px 0px ;
 }
 table.apps td
@@ -80,17 +73,13 @@ table.apps td
 }
 table.apps2 td
 {
-	padding: 20px 0px 0px 40px;
+	padding: 20px 20px 0px 40px;
 	color:#369;
 	width: 180px;
 	background-color:white ;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 0.4em;
-}
-.art
-{
-	width:810px;
 }
 hr
 {
@@ -99,7 +88,8 @@ hr
 .container
 {
 	width: 600px;
-
+	margin-left: auto;
+	margin-right: auto;
 }
 .leftcolumn
 {
@@ -171,6 +161,10 @@ article
 	line-height: 1.3em;
 	color: #666;
 }
+table.art 
+{
+	margin: 0px 300px 0px 300px;	
+}
 #companieslogo
 {
 	padding-top: 20px;
@@ -186,8 +180,7 @@ h6
 }
 .list
 {	
-	width:810px;
-	text-align: left;
+	margin: 0px 300px 0px 300px;	
 	border-collapse:separate; 
 	border-spacing: 0em 2em;
 	font-size:15px;
@@ -219,6 +212,7 @@ q
 	font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
 	font-style: italic;
 	font-size: 22px;
+	margin: 35px 0 10px;
 }
 .center
 {
@@ -226,7 +220,8 @@ q
 }
 .rework
 {
-	width:810px;
+	
+	margin: 0px 222px 0px 300px;
 }
 .list h7
 {
