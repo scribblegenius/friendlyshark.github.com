@@ -98,18 +98,18 @@ hr
 }
 .container
 {
-	width: 600px;
+	width: 720px;
 
 }
 .leftcolumn
 {
 	float:left;
-	width:270px;
+	width:300px;
 }
 .rightcolumn
 {
 	float:right;
-	width:270px;
+	width:300px;
 }
 .footertext
 {
