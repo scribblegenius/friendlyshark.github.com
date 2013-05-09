@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 
 	alert('hello world');
 $(document).ready(function(){
