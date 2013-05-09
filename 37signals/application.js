@@ -1,6 +1,3 @@
-<script>
-
-	alert('hello world');
 $(document).ready(function(){
 	  $(this).on("click",function(){
 	  	$(this).text("hi");
@@ -16,4 +13,3 @@ $(document).ready(function(){
 		    		tracked using Highrise.');
 		    });
 		});
-</script>
