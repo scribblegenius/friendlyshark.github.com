@@ -283,6 +283,40 @@ h8
 {
 	color:#369;
 }
+.arrow
+{
+	display: none;
+}
+.arrowbc
+{
+	position: absolute;
+	border-color: white;
+	width:69px;
+	height: 69px;
+	margin-left: 180px;
+	background-image: url(arrow-left.png);
+	z-index: 1;
+}
+.arrowhr
+{
+	position: absolute;
+	border-color: white;
+	width:69px;
+	height: 69px;
+	margin-left: 400px;
+	background-image: url(arrow-left.png);
+	z-index: 1;
+}
+.arrowcf
+{
+	position: absolute;
+	border-color: white;
+	width:69px;
+	height: 69px;
+	margin-left: 810px;
+	background-image: url(arrow-right.png);
+	z-index: 1;
+}
 q
 {
 	color: #888;
