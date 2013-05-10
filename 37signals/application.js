@@ -3,6 +3,7 @@ $(document).ready(function(){
 		function reset(){
 		$('#Headline').text('Making collaboration productive and enjoyable for people every day.');
 		$('#subHeadline').text('Frustration-free web-based apps for collaboration, sharing information, and making decisions.');
+		 $('#Headline').removeClass('smaller');
 		    };
 	    
 
