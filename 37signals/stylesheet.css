@@ -97,7 +97,7 @@ a.thumbnails:hover
 }
 .smaller
 {
-	font-size: 42px;
+	font-size: 36px;
 }
 #bc
 {
@@ -145,10 +145,7 @@ table.apps2 td
 {
 	width:810px;
 }
-hr
-{
 
-}
 .leftcol 
 {
   margin-top: 54px;
