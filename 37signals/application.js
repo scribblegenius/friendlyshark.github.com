@@ -8,7 +8,7 @@ $(document).ready(function(){
 	   var apos = "'"; 
 
 	  $('#bc').on('mouseenter',function(){
-	    $('#Headline').text('<span class="Signin">Basecamp</span> is the project management tool you wish you had on your last project.');
+	    $('#Headline').text('<Basecampis the project management tool you wish you had on your last project.');
 	    $('#Headline').toggleClass('smaller');
 		$('#subHeadline').text("Are you still managing projects with email? Are you still using Excel for your to-do lists? It"+ apos +"s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.");
 		    });
@@ -22,6 +22,5 @@ $(document).ready(function(){
 	    $('#Headline').toggleClass('smaller');
 		$('#subHeadline').text("Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It"+ apos +"s game changing. We couldn"+ apos +"t run our own business without Campfire.");
 		    });
-
 	    $('.apps').find('div').on('mouseleave',reset);
 	});
