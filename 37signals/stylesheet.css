@@ -97,7 +97,8 @@ a.thumbnails:hover
 }
 .smaller
 {
-	font-size: 30px;
+	font-size: 33px;
+	font-weight:bold;
 }
 #bc
 {
