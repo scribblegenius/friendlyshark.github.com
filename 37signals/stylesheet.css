@@ -104,7 +104,7 @@ a.thumbnails:hover
 	padding-top: 6px;
 	border-spacing: 36px 0px ;
 }
-table.apps td
+.app
 {
 	line-height: 15px;
 	color:#369;
