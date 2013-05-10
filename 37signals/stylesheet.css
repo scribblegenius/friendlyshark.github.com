@@ -302,7 +302,7 @@ h8
 	border-color: white;
 	width:69px;
 	height: 69px;
-	margin-left: 400px;
+	margin-left: 420px;
 	background-image: url(arrow-left.png);
 	z-index: 1;
 }
@@ -312,7 +312,7 @@ h8
 	border-color: white;
 	width:69px;
 	height: 69px;
-	margin-left: 810px;
+	margin-left: 459px;
 	background-image: url(arrow-right.png);
 	z-index: 1;
 }
