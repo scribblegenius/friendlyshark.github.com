@@ -7,8 +7,8 @@ $(document).ready(function(){
 	    
 
 	  $('#bc').on('mouseenter',function(){
-	     $('#Headline').text('Basecamp is the project management tool you wish you had on your last project.');
-	     $('#Headline').toggleClass('smaller');
+	    $('#Headline').text('Basecamp is the project management tool you wish you had on your last project.');
+	    $('#Headline').toggleClass('smaller');
 		$('#subHeadline').text('Are you still managing projects with email? Are you still using Excel for your to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.');
 		    });
 	  $('#hr').on('mouseenter',function(){
