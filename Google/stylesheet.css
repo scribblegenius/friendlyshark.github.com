@@ -1,7 +1,3 @@
-table
-{
-
-}
 html
 {
 	width:100%;
@@ -18,15 +14,16 @@ img
 #buttons
 {
 	margin-top: 16px;
-	margin-left:42.1%;
+	margin-left:40%;
+	width:inherit;
 }
 input
 {
 	clear:both;
 	width:565px;
 	height: 23px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 33.3%;
+	text-align: center;
 }
 a
 {
@@ -70,7 +67,6 @@ li a:hover
 }
 button
 {
- float:left;
  border: none;
  height: 29px;
  margin-right: 16.5px;
