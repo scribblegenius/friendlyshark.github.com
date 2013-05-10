@@ -95,7 +95,10 @@ a.thumbnails:hover
 	padding-top: 33px;
 	clear:both;
 }
-
+.smaller
+{
+	font-size: 48px;
+}
 #bc
 {
 	float: left;
