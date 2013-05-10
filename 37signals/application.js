@@ -15,7 +15,7 @@ $(document).ready(function(){
 		    });
 	    $('#cf').on('mouseenter',function(){
 	    $('#Headline').text('From near or far, Campfire helps teams work together over the web in real-time');
-		$('#subHeadline').text('Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It’s game changing. We couldn’t run our own business without Campfire.');
+		$('#subHeadline').text("Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It's game changing. We couldn’t run our own business without Campfire.");
 		    });
 
 	    $('.apps').find('div').on('mouseleave',reset);
