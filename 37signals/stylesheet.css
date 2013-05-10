@@ -97,8 +97,12 @@ a.thumbnails:hover
 }
 .apps
 {
-	width:720px;
 }
+#bc
+{
+	float: left;
+}
+
 .apps , .apps2
 {
 	padding-top: 6px;
@@ -106,9 +110,9 @@ a.thumbnails:hover
 }
 .app
 {
+	float:left;
 	line-height: 15px;
 	color:#369;
-	width: 180px;
 	height:200px;
 	padding: 20px 0px 0px 0px;
 	background-color:#E8E8E8 ;
@@ -210,6 +214,7 @@ h6
 }
 .stars
 {
+	clear:both;
 	padding-top: 40px;
 	font-size:30px;
 	color:#999;
