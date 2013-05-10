@@ -100,11 +100,15 @@ a.thumbnails:hover
 	font-size: 36px;
 	font-weight:bold;
 }
-#bc
+.stars
 {
-	float: left;
+	padding-top: 40px;
+	clear: both;
+	border: 0;
+	background: white url('img-hr.png') no-repeat scroll 50% 50%;
+	color: transparent;
+	height: 12px;
 }
-
 .apps , .apps2
 {
 	padding-top: 6px;
@@ -113,7 +117,7 @@ a.thumbnails:hover
 .app
 {
 	float:left;
-	margin-left:63px;	
+	margin-left:45px;	
 	
 }
 #bc , #hr , #cf
@@ -132,8 +136,9 @@ a.thumbnails:hover
     background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#FFFFFF), to(#EFEFEF));
 
 }
-table.apps2 td
+#bcsmall , #hrsmall , #cfsmall
 {
+	float: left;
 	padding: 20px 0px 0px 40px;
 	color:#369;
 	width: 180px;
@@ -218,13 +223,9 @@ h6
 	font-style: normal;
 	color: #222;
 }
-.stars
+hr
 {
-	clear:both;
-	padding-top: 40px;
-	font-size:30px;
-	color:#999;
-	font-family:Verdana;
+	border: 1px solid #E8E8E8;
 }
 .millions
 {
