@@ -4,6 +4,10 @@ $(document).ready(function(){
 		$('#Headline').text('Making collaboration productive and enjoyable for people every day.');
 		$('#subHeadline').text('Frustration-free web-based apps for collaboration, sharing information, and making decisions.');
 		    };
+	    $('.apps').find('div').on('mouseleave',function fontresize(){
+		$('#Headline').css({font-size:'20px'});
+		$('#subHeadline').css({font-size:'20px'});
+		    };
 
 	  $('#bc').on('mouseenter',function(){
 	     $('#Headline').text('Basecamp is the project management tool you wish you had on your last project.');
