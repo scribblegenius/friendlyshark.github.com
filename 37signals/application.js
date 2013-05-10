@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$('#subHeadline').text('Frustration-free web-based apps for collaboration, sharing information, and making decisions.');
 		 $('#Headline').removeClass('smaller');
 		    };
-	    
+	   var apos = '"\'"'; 
 
 	  $('#bc').on('mouseenter',function(){
 	    $('#Headline').text('Basecamp is the project management tool you wish you had on your last project.');
@@ -20,7 +20,7 @@ $(document).ready(function(){
 	    $('#cf').on('mouseenter',function(){
 	    $('#Headline').text('From near or far, Campfire helps teams work together over the web in real-time');
 	    $('#Headline').toggleClass('smaller');
-		$('#subHeadline').text("Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It\'s game changing. We couldn\’t run our own business without Campfire.");
+		$('#subHeadline').text("Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It"+ apos +"s game changing. We couldn\’t run our own business without Campfire.");
 		    });
 
 	    $('.apps').find('div').on('mouseleave',reset);
