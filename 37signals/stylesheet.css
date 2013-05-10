@@ -95,9 +95,7 @@ a.thumbnails:hover
 	padding-top: 33px;
 	clear:both;
 }
-.apps
-{
-}
+
 #bc
 {
 	float: left;
@@ -111,10 +109,16 @@ a.thumbnails:hover
 .app
 {
 	float:left;
+	margin-left:63px;	
+	
+}
+#bc , #hr , #cf
+{
 	line-height: 15px;
 	color:#369;
 	height:200px;
-	padding: 20px 0px 0px 0px;
+	width:160px;
+	padding: 20px 10px 20px 10px;
 	background-color:#E8E8E8 ;
 	text-align: center;
 	text-decoration: none;
@@ -122,6 +126,7 @@ a.thumbnails:hover
 	box-shadow: #EFEFEF 0 0 5px;
     -webkit-box-shadow: #EFEFEF 0 0 5px;
     background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#FFFFFF), to(#EFEFEF));
+
 }
 table.apps2 td
 {
