@@ -10,9 +10,6 @@ h1
 }
 h2
 {
-	text-align: inherit;
-	margin-left: inherit;
-	margin-right: inherit;
 	font-family: "Verdana";
 	font-size: 45px;
 	font-weight: bold;
@@ -23,6 +20,16 @@ h2
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+.playscreen
+{
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
+	display:none;
+	border-radius: 20px;
+	height: 400px;
+	width:	400px;
 }
 .red
 {
@@ -50,16 +57,5 @@ h2
 	height: 120px;
 	width:	120px;
 }
-.PlayScreen
-{
-	display:none;
-}
-.PlayScreenShow
-{
-	display:block;
-	color:yellow;
-	border-radius: 20px;
-	height: 400px;
-	width:	400px;
-}
+
 
