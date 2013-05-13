@@ -17,7 +17,7 @@ h2
 	font-family: "Times New Roman’, Times, serif";
 	font-size: 45px;
 	font-weight: bold;
-	color:#369;
+	color:white;
 }
 .container
 {
@@ -62,7 +62,7 @@ h2
 .playclick
 {
 	background: url('power-button.psd') no-repeat 58% 50%;
-	border-style: none;
+	border-style: ;
 	height: 120px;
 	width:	120px;
 }
