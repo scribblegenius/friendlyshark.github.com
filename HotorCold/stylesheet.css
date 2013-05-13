@@ -50,11 +50,11 @@ h2
 	height: 120px;
 	width:	120px;
 }
-.PlayArea
+.PlayScreen
 {
 	display:none;
 }
-.PlayAreaShow
+.PlayScreenShow
 {
 	color:yellow;
 	border-radius: 20px;
