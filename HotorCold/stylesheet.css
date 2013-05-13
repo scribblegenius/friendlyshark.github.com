@@ -1,0 +1,48 @@
+h1 
+{
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
+	font-family: "Verdana";
+	font-size: 81px;
+	font-weight: bold;
+	font-color:red;
+}
+.container
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.red
+{
+	color:#FE2E2E;
+}
+.blue
+{
+	color:#0080FF;
+}
+.play
+{
+	background: url('power-button.psd') no-repeat 41% 50%;
+	height: 120px;
+	width:	120px;
+}
+.play:hover
+{
+	background: url('power-button.psd') no-repeat 58% 50%;
+	height: 120px;
+	width:	120px;
+}
+.playclick
+{
+	background: url('power-button.psd') no-repeat 58% 50%;
+	height: 120px;
+	width:	120px;
+}
+.playdone
+{
+	background: url('power-button.psd') no-repeat 41% 50%;
+	height: 120px;
+	width:	120px;
+}
