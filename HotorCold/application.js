@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('button').on('click',function(){ 
-		$(this).removeClass().toggleClass('playclick');
+	$('#playbutton').on('click',function(){ 
+		$(this).toggleClass('playclick');
 	});
 });
