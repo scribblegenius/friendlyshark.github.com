@@ -16,7 +16,7 @@ h2
 	font-family: "Verdana";
 	font-size: 45px;
 	font-weight: bold;
-	color:yellow;
+	color:#369;
 }
 .container
 {
@@ -57,8 +57,7 @@ h2
 .PlayAreaShow
 {
 	display:block;
-	background: yellow;
-	color:#369;
+	color:yellow;
 	border-radius: 20px;
 	height: 400px;
 	width:	400px;
