@@ -1,6 +1,6 @@
 body
 {
-	background: url('metalbg.jpg') ;
+	
 }
 h1 
 {
@@ -27,6 +27,7 @@ h2
 }
 .playscreen
 {
+	background: url('metalbg.png');
 	text-align: inherit;
 	margin-left: inherit;
 	margin-right: inherit;
