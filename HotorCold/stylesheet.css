@@ -52,11 +52,9 @@ h2
 }
 .PlayArea
 {
-	display:none;
 }
 .PlayAreaShow
 {
-	display:block;
 	color:yellow;
 	border-radius: 20px;
 	height: 400px;
