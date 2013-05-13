@@ -7,14 +7,14 @@ h1
 	text-align: inherit;
 	margin-left: inherit;
 	margin-right: inherit;
-	font-family: "Impact, sans-serif;";
+	font-family: "Verdana";
 	font-size: 81px;
 	font-weight: bold;
-	color:white;
+	color:#ccc;
 }
 h2
 {
-	font-family: "Verdana";
+	font-family: "Times New Roman’, Times, serif";
 	font-size: 45px;
 	font-weight: bold;
 	color:#369;
@@ -27,11 +27,11 @@ h2
 }
 .playscreen
 {
-	background: url('metalbg.png');
 	text-align: inherit;
 	margin-left: inherit;
 	margin-right: inherit;
 	display:none;
+	color:#ccc;
 	border-radius: 20px;
 	height: 200px;
 	width:	600px;
