@@ -6,7 +6,17 @@ h1
 	font-family: "Verdana";
 	font-size: 81px;
 	font-weight: bold;
-	font-color:red;
+	color:gray;
+}
+h2
+{
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
+	font-family: "Verdana";
+	font-size: 45px;
+	font-weight: bold;
+	color:yellow;
 }
 .container
 {
@@ -40,9 +50,15 @@ h1
 	height: 120px;
 	width:	120px;
 }
-.playdone
+.PlayArea
 {
-	background: url('power-button.psd') no-repeat 41% 50%;
-	height: 120px;
-	width:	120px;
+	display:none;
 }
+.PlayAreaShow
+{
+	display:block;
+	color: yellow;
+	height: 400px;
+	width:	400px;
+}
+
