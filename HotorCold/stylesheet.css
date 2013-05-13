@@ -57,7 +57,7 @@ h2
 .PlayAreaShow
 {
 	display:block;
-	background-color: yellow;
+	background: yellow;
 	color:#369;
 	border-radius: 20px;
 	height: 400px;
