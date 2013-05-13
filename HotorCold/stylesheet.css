@@ -28,10 +28,11 @@ h2
 .playscreen
 {
 	text-align: inherit;
+	vertical-align: center;
 	margin-left: inherit;
 	margin-right: inherit;
 	display:none;
-	color:#ccc;
+	background:#ccc;
 	border-radius: 20px;
 	height: 200px;
 	width:	600px;
