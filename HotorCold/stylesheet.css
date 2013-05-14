@@ -1,6 +1,22 @@
 body
 {
-	
+	background:url('squairy_light_@2X.png');
+}
+.header
+{
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
+	font-family: "Verdana";
+	font-size: 81px;
+	font-weight: bold;
+	margin-bottom: 100px;
+	color:#ccc;
+	height: 100px;
+	color:white;
+	background-color: #A62A2A;
+	letter-spacing: 9px;
+	width:100%;
 }
 h1 
 {
@@ -64,5 +80,12 @@ h2
 	height: 120px;
 	width:	120px;
 }
+input[type="range"]{
+   -webkit-appearance:none !important;
+   width:630px;
+ }
 
+ input[type="range"]::-webkit-slider-thumb{
+   -webkit-appearance:none !important;  
+ }
 
