@@ -80,12 +80,5 @@ h2
 	height: 120px;
 	width:	120px;
 }
-input[type="range"]{
-   -webkit-appearance:none !important;
-   width:630px;
- }
 
- input[type="range"]::-webkit-slider-thumb{
-   -webkit-appearance:none !important;  
- }
 
