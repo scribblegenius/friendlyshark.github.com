@@ -9,7 +9,7 @@ body
 	font-family: "Verdana";
 	font-size: 81px;
 	font-weight: bold;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 	color:#ccc;
 	height: 100px;
 	color:white;
@@ -79,12 +79,4 @@ h2
 	height: 120px;
 	width:	120px;
 }
-input[type="range"]{
-   -webkit-appearance:none !important;
-   width:630px;
- }
-
- input[type="range"]::-webkit-slider-thumb{
-   -webkit-appearance:none !important;  
- }
 
