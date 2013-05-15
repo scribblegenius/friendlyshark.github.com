@@ -35,7 +35,7 @@ $(document).ready(function(){
     }
 	function AnnounceStatus(text)
 	{
-		$('#Announce').text(randomnumber);
+		$('#Announce').text(text);
 	}
 	$('#playbutton').on('click',function(){ 
 		$(this).toggleClass('playclick');
