@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var randomnumber = -1;
-
+    var userguess =-1;
     function setRandom()
     {
     	if(randomnumber == -1)
@@ -16,5 +16,11 @@ $(document).ready(function(){
 		setRandom();
 	});
 
-	
+	$('#submit').on('click',function(){ 
+		userguess = $('#UserGuessTextBox').val();
+		$('#test').text(randomnumber+" "+userguess);
+	});
+
+
+
 });
