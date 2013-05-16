@@ -12,6 +12,7 @@ $(document).ready(function(){
 		userguess =-1;
 		prevuserguess = 0;
 		randomnumber = (Math.floor(Math.random() * 101) + 1);
+		$('#UserGuessTextBox').val('');
 	}
 	function CheckUserGuess(guess)
 	{
