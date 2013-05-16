@@ -16,8 +16,8 @@ $(document).ready(function(){
     	tries++;
     	prevuserguess = userguess;
     	userguess = guess;
-    	var diff1 = randomnumber-userguess;
-    	var diff2 = randomnumber-prevuserguess;
+    	var diff1 = Math.abs(randomnumber-userguess);
+    	var diff2 = Math.abs(randomnumber-prevuserguess);
     	display(prevuserguess + " " + userguess + " " + randomnumber + " " + diff1);
     	if(userguess == randomnumber){
     		if(tries == 1)
@@ -34,7 +34,7 @@ $(document).ready(function(){
     		}
     		InitializeGame();
     	}
-    	else if(Math.abs(diff1) < Math.abs(diff2))
+    	else if((diff1) < (diff2))
     	{
     	
     		AnnounceStatus("Hotter! Attempt "+tries);
