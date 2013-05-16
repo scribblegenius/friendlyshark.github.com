@@ -46,12 +46,10 @@ h2
 .playscreen
 {
 	text-align: inherit;
-	vertical-align: center;
 	margin-left: inherit;
 	margin-right: inherit;
 	display:none;
 	height: 400px;
-	width: 1200px;
 }
 #submit
 {
