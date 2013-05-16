@@ -5,6 +5,7 @@ $(document).ready(function(){
     var tries =0;
     function InitializeGame()
     {
+    	tries=0;
     	userguess =-1;
     	prevuserguess = -1;
     	AnnounceStatus("Guess the numer :D!");
@@ -24,7 +25,11 @@ $(document).ready(function(){
     	userguess = guess;
     	display(prevuserguess + " " + userguess + " " + randomnumber);
     	if(userguess == randomnumber){
-    		if(tries > 5)
+    		if(tries == 1)
+    		{
+    			AnnounceStatus("God? Is that you? ...er..Guess again? ");
+    		}
+    		else if(tries > 5)
     		{
     			AnnounceStatus("Victory in " +tries +" attempts!! Guess again? ");
     		}
