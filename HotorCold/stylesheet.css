@@ -29,6 +29,9 @@ h1
 }
 h2
 {
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
 	font-family: "Times New Roman’, Times, serif";
 	font-size: 45px;
 	font-weight: bold;
@@ -52,6 +55,9 @@ h2
 }
 #submit
 {
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
 	color: white;
 	background: #009ACD;
 	font-family: Gill Sans / Gill Sans MT, sans-serif;';
@@ -66,7 +72,9 @@ h2
 }
 input
 {
-	text-align: center;
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
 	font-family: "Verdana";
 	width:45px;
 	height:45px;
@@ -85,6 +93,9 @@ input
 }
 .play
 {
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
 	background: url('power-button.png') no-repeat 41% 50%;
 	border-style: none;
 	height: 120px;
@@ -92,6 +103,9 @@ input
 }
 .play:hover
 {
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
 	background: url('power-button.png') no-repeat 58% 50%;
 	border-style: none;
 	height: 120px;
@@ -99,6 +113,9 @@ input
 }
 .playclick
 {
+	text-align: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
 	background: url('power-button.png') no-repeat 58% 50%;
 	border-style: ;
 	height: 120px;
