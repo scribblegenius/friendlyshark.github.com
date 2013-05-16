@@ -50,6 +50,20 @@ h2
 	height: 400px;
 	width: 1200px;
 }
+#submit
+{
+	color: white;
+	background: #009ACD;
+	font-family: Gill Sans / Gill Sans MT, sans-serif;';
+	border-radius: 45px;
+	border-style: solid 10px;
+	border-color:#369;
+	border-width: 4.5px;
+	font-size: 27px;
+	height: 100px;
+	width: 100px;
+	border-radius: 45px;
+}
 .red
 {
 	color:#FE2E2E;

@@ -18,7 +18,7 @@ $(document).ready(function(){
     	userguess = guess;
     	var diff1 = Math.abs(randomnumber-userguess);
     	var diff2 = Math.abs(randomnumber-prevuserguess);
-    	display(prevuserguess + " " + userguess + " " + randomnumber + " " + diff1);
+    	// display(prevuserguess + " " + userguess + " " + randomnumber + " " + diff1);
     	if(userguess == randomnumber){
     		if(tries == 1)
     		{
