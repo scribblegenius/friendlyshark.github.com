@@ -43,7 +43,7 @@ $(document).ready(function(){
     	else if((diff1) < (diff2))
     	{
 
-    		AnnounceStatus("Hotter! Attempt "+tries);
+    		AnnounceStatus("Lukewarm! Attempt "+tries);
     		if( diff1 < 65)
     			AnnounceStatus("Kinda Warm! Attempt "+tries);
     		if( diff1 < 45)
@@ -66,9 +66,9 @@ $(document).ready(function(){
     	}
     	else
     	{
-    		AnnounceStatus("Colder! Attempt "+tries);
+    		AnnounceStatus("Cooler! Attempt "+tries);
     		if(diff1 > 15)
-    			AnnounceStatus("Cooler! Attempt "+tries);
+    			AnnounceStatus("Colder! Attempt "+tries);
     		if(diff1 > 30)
     			AnnounceStatus("Ohhh colder!! Attempt "+tries);
     		if(diff1 > 45)
