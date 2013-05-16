@@ -87,7 +87,7 @@ $(document).ready(function(){
 	}
 	$('#playbutton').on('click',function(){ 
 		$(this).toggleClass('playclick');
-		$('.PlayScreen').slideToggle();
+		$('.playscreen').slideToggle();
 		InitializeGame();
 	});
 
