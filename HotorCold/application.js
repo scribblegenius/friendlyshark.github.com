@@ -26,11 +26,11 @@ $(document).ready(function(){
     	if(userguess == randomnumber){
     		if(tries > 5)
     		{
-    			AnnounceStatus("Victory in " +tries " attempts!! Guess again? ");
+    			AnnounceStatus("Victory in " +tries +" attempts!! Guess again? ");
     		}
     		else
     		{
-    			AnnounceStatus("Victory in " +tries " attempts!! You are good!Guess again? ");
+    			AnnounceStatus("Victory in " +tries +" attempts!! You are good!Guess again? ");
     		}
     		InitializeGame();
     	}
