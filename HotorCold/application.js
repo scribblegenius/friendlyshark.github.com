@@ -2,13 +2,15 @@ $(document).ready(function(){
 	var randomnumber = -1;
     var userguess =-1;
     var prevuserguess = -1;
+    var tries =0;
     function InitializeGame()
     {
     	userguess =-1;
     	prevuserguess = -1;
+    	AnnounceStatus("Guess the numer :D!");
     	if(randomnumber == -1)
     	{
-    		randomnumber = Math.floor(Math.random()*101);
+    		randomnumber = Math.floor(Math.random() * 101) + 1;
     	}
     	else
     	{
@@ -17,20 +19,28 @@ $(document).ready(function(){
     }
     function CheckUserGuess(guess)
     {
+    	tries++;
     	prevuserguess = userguess;
     	userguess = guess;
     	display(prevuserguess + " " + userguess + " " + randomnumber);
     	if(userguess == randomnumber){
-    		AnnounceStatus("Victory!! Guess again? ");
+    		if(tries > 5)
+    		{
+    			AnnounceStatus("Victory in " +tries " attempts!! Guess again? ");
+    		}
+    		else
+    		{
+    			AnnounceStatus("Victory in " +tries " attempts!! You are good!Guess again? ");
+    		}
     		InitializeGame();
     	}
     	else if(Math.abs(randomnumber-userguess) < Math.abs(randomnumber - prevuserguess))
     	{
-    		AnnounceStatus("Hot!");
+    		AnnounceStatus("Hot!( Attempt "+tries);
     	}
     	else
     	{
-    		AnnounceStatus("Cold!");
+    		AnnounceStatus("Cold!( Attempt "+tries);
     	}
     }
 
