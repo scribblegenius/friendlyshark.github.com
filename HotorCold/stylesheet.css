@@ -47,7 +47,7 @@ h2
 	margin-left: inherit;
 	margin-right: inherit;
 	display:none;
-	height: 360px;
+	height: 400px;
 	width: 1200px;
 }
 #submit
@@ -64,9 +64,10 @@ h2
 	width: 100px;
 	border-radius: 45px;
 }
-#inputnum
+input
 {
 	width:300px;
+	height: 150px;
 }
 .red
 {
