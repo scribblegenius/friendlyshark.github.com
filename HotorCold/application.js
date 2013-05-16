@@ -1,23 +1,28 @@
 $(document).ready(function(){
+	var min=1;
+	var max=100;
 	var randomnumber = -1;
-    var userguess =-1;
-    var prevuserguess = 0;
-    var tries =0;
+	var userguess =-1;
+	var prevuserguess = 0;
+	var tries =0;
 	AnnounceStatus("Guess the number :D!");
-    function InitializeGame()
-    {
-    	tries=0;
-    	userguess =-1;
-    	prevuserguess = 0;
-    	randomnumber = (Math.floor(Math.random() * 101) + 1);
-    }
-    function CheckUserGuess(guess)
-    {
-    	tries++;
-    	prevuserguess = userguess;
-    	userguess = guess;
-    	var diff1 = Math.abs(randomnumber-userguess);
-    	var diff2 = Math.abs(randomnumber-prevuserguess);
+	function InitializeGame()
+	{
+		tries=0;
+		userguess =-1;
+		prevuserguess = 0;
+		randomnumber = (Math.floor(Math.random() * 101) + 1);
+	}
+	function CheckUserGuess(guess)
+	{
+		if(isNumber(guess) && guess >=1 && guess <=100 )
+		{
+			if(userguess)
+				tries++;
+			prevuserguess = userguess;
+			userguess = guess;
+			var diff1 = Math.abs(randomnumber-userguess);
+			var diff2 = Math.abs(randomnumber-prevuserguess);
     	// display(prevuserguess + " " + userguess + " " + randomnumber + " " + diff1);
     	if(userguess == randomnumber){
     		if(tries == 1)
@@ -36,7 +41,7 @@ $(document).ready(function(){
     	}
     	else if((diff1) < (diff2))
     	{
-    	
+
     		AnnounceStatus("Hotter! Attempt "+tries);
     		if( diff1 < 65)
     			AnnounceStatus("Kinda Warm! Attempt "+tries);
@@ -56,11 +61,11 @@ $(document).ready(function(){
     			AnnounceStatus("Cant.Take.Heat.End this already!! Attempt "+tries);
     		if( diff1 < 1)
     			AnnounceStatus("Heat beyond human cognition! Attempt "+tries);
-    			
+
     	}
     	else
     	{
-			AnnounceStatus("Colder! Attempt "+tries);
+    		AnnounceStatus("Colder! Attempt "+tries);
     		if(diff1 > 15)
     			AnnounceStatus("Cooler! Attempt "+tries);
     		if(diff1 > 30)
@@ -70,25 +75,30 @@ $(document).ready(function(){
     		if(diff1 > 65)
     			AnnounceStatus("North Pole cold!! Attempt "+tries);
     	}
+    	else
+    	{
+    		AnnounceStatus("Enter a number from 1 to 100!");
+    	}
     }
+}
 
-	function AnnounceStatus(text)
-	{
-		$('#Announce').text(text);
-	}
-	function display(text)
-	{
-		$('#test').text(text);
-	}
-	$('#playbutton').on('click',function(){ 
-		$(this).toggleClass('playclick');
-		$('.playscreen').slideToggle();
-		InitializeGame();
-	});
+function AnnounceStatus(text)
+{
+	$('#Announce').text(text);
+}
+function display(text)
+{
+	$('#test').text(text);
+}
+$('#playbutton').on('click',function(){ 
+	$(this).toggleClass('playclick');
+	$('.playscreen').slideToggle();
+	InitializeGame();
+});
 
-	$('#submit').on('click',function(){ 
-		CheckUserGuess($('#UserGuessTextBox').val());
-	});
+$('#submit').on('click',function(){ 
+	CheckUserGuess($('#UserGuessTextBox').val());
+});
 
 
 
