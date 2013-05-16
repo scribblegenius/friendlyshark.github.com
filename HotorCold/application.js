@@ -70,7 +70,7 @@ $(document).ready(function(){
 
     		if(diff1 > 65)
     			AnnounceStatus("North Pole cold!! Attempt "+tries);
-    		else if(randomnumber-userguess > 45)
+    		else if(diff1 > 45)
     			AnnounceStatus("Freezing cold! Attempt "+tries);
     		else
     			AnnounceStatus("Colder! Attempt "+tries);
