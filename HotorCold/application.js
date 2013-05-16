@@ -28,7 +28,7 @@ $(document).ready(function(){
     	if(userguess == randomnumber){
     		if(tries == 1)
     		{
-    			AnnounceStatus("God? Is that you? ...er..Guess again?( Just to be sure it's you hehe :D ) ");
+    			AnnounceStatus("God? Is that you? ...er..Guess again?( Just to be sure :D ) ");
     		}
     		else if(tries > 5)
     		{

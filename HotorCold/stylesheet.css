@@ -64,6 +64,10 @@ h2
 	width: 100px;
 	border-radius: 45px;
 }
+#inputnum
+{
+	width:300px;
+}
 .red
 {
 	color:#FE2E2E;
