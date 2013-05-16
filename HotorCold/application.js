@@ -9,14 +9,7 @@ $(document).ready(function(){
     	tries=0;
     	userguess =-1;
     	prevuserguess = 0;
-    	if(randomnumber == -1)
-    	{
-    		randomnumber = (Math.floor(Math.random() * 101) + 1);
-    	}
-    	else
-    	{
-    		randomnumber = -1;
-    	}
+    	randomnumber = (Math.floor(Math.random() * 101) + 1);
     }
     function CheckUserGuess(guess)
     {
