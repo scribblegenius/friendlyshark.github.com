@@ -19,7 +19,7 @@ $(document).ready(function(){
     {
     	prevuserguess = userguess;
     	userguess = guess;
-    	display(prevuserguess+ " " + userguess " " + randomnumber);
+    	display(prevuserguess + " " + userguess + " " + randomnumber);
     	if(userguess == randomnumber){
     		AnnounceStatus("Victory! You guessed it right! Guess again? ");
     		InitializeGame();
