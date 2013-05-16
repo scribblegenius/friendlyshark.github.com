@@ -19,6 +19,7 @@ $(document).ready(function(){
     {
     	prevuserguess = userguess;
     	userguess = guess;
+    	display(prevuserguess+ " " + userguess " " + randomnumber);
     	if(userguess == randomnumber){
     		AnnounceStatus("Victory! You guessed it right! Guess again? ");
     		InitializeGame();
@@ -31,11 +32,15 @@ $(document).ready(function(){
     	{
     		AnnounceStatus("Cold!");
     	}
-
     }
+
 	function AnnounceStatus(text)
 	{
 		$('#Announce').text(text);
+	}
+	function display(text)
+	{
+		$('#test').text(text);
 	}
 	$('#playbutton').on('click',function(){ 
 		$(this).toggleClass('playclick');
