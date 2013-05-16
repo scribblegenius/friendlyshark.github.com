@@ -11,7 +11,7 @@ $(document).ready(function(){
     	prevuserguess = 0;
     	if(randomnumber == -1)
     	{
-    		randomnumber = Math.floor(Math.random() * 101) + 1;
+    		randomnumber = (Math.floor(Math.random() * 101) + 1);
     	}
     	else
     	{
