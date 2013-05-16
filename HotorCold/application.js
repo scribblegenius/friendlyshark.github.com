@@ -54,21 +54,21 @@ $(document).ready(function(){
     			AnnounceStatus("Everything is melting!! Attempt "+tries);
     		if( diff1 < 2)
     			AnnounceStatus("Cant.Take.Heat.End this already!! Attempt "+tries);
-    		if( diff1 < 2)
+    		if( diff1 < 1)
     			AnnounceStatus("Heat beyond human cognition! Attempt "+tries);
     			
     	}
     	else
     	{
 			AnnounceStatus("Colder! Attempt "+tries);
-    		if(diff1 > 65)
-    			AnnounceStatus("North Pole cold!! Attempt "+tries);
-    		if(diff1 > 45)
-    			AnnounceStatus("Freezing cold! Attempt "+tries);
-    		if(diff1 > 30)
-    			AnnounceStatus("Ohhh colder!! Attempt "+tries);
     		if(diff1 > 15)
     			AnnounceStatus("Cooler! Attempt "+tries);
+    		if(diff1 > 30)
+    			AnnounceStatus("Ohhh colder!! Attempt "+tries);
+    		if(diff1 > 45)
+    			AnnounceStatus("Freezing cold! Attempt "+tries);
+    		if(diff1 > 65)
+    			AnnounceStatus("North Pole cold!! Attempt "+tries);
     	}
     }
 
