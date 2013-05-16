@@ -60,21 +60,21 @@ h2
 }
 .play
 {
-	background: url('power-button.psd') no-repeat 41% 50%;
+	background: url('power-button.png') no-repeat 41% 50%;
 	border-style: none;
 	height: 120px;
 	width:	120px;
 }
 .play:hover
 {
-	background: url('power-button.psd') no-repeat 58% 50%;
+	background: url('power-button.png') no-repeat 58% 50%;
 	border-style: none;
 	height: 120px;
 	width:	120px;
 }
 .playclick
 {
-	background: url('power-button.psd') no-repeat 58% 50%;
+	background: url('power-button.png') no-repeat 58% 50%;
 	border-style: ;
 	height: 120px;
 	width:	120px;
