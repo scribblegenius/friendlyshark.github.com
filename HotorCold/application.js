@@ -15,7 +15,7 @@ $(document).ready(function(){
 	}
 	function CheckUserGuess(guess)
 	{
-		if(isNumber(guess) && guess >=1 && guess <=100 )
+		if( isNumber(guess) && guess >=1 && guess <=100 )
 		{
 			if(userguess)
 				tries++;
@@ -75,11 +75,11 @@ $(document).ready(function(){
     		if(diff1 > 65)
     			AnnounceStatus("North Pole cold!! Attempt "+tries);
     	}
-    	else
+    }
+    else
     	{
     		AnnounceStatus("Enter a number from 1 to 100!");
     	}
-    }
 }
 
 function AnnounceStatus(text)
