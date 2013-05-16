@@ -65,6 +65,10 @@ $(document).ready(function(){
     			AnnounceStatus("North Pole cold!! Attempt "+tries);
     		if(diff1 > 45)
     			AnnounceStatus("Freezing cold! Attempt "+tries);
+    		if(diff1 > 30)
+    			AnnounceStatus("Ohhh colder!! Attempt "+tries);
+    		if(diff1 > 15)
+    			AnnounceStatus("Cooler! Attempt "+tries);
     	}
     }
 
