@@ -27,7 +27,7 @@ $(document).ready(function(){
     	if(userguess == randomnumber){
     		if(tries == 1)
     		{
-    			AnnounceStatus("God? Is that you? ...er..Guess again? ");
+    			AnnounceStatus("God? Is that you? ...er..Guess again?( Just to be sure it's you hehe :D ) ");
     		}
     		else if(tries > 5)
     		{
@@ -40,11 +40,35 @@ $(document).ready(function(){
     	}
     	else if(Math.abs(randomnumber-userguess) < Math.abs(randomnumber - prevuserguess))
     	{
-    		AnnounceStatus("Hot!( Attempt "+tries);
+    		if(randomnumber-userguess < 65)
+    			AnnounceStatus("Kinda Warm! Attempt "+tries);
+    		else if(randomnumber-userguess < 45)
+    			AnnounceStatus("Warm! Attempt "+tries);
+    		else if(randomnumber-userguess < 25)
+    			AnnounceStatus("Warmer! Attempt "+tries);
+    		else if(randomnumber-userguess < 15)
+    			AnnounceStatus("Hotter! Attempt "+tries);
+    		else if(randomnumber-userguess < 10)
+    			AnnounceStatus("Red Hot! Attempt "+tries);
+    		else if(randomnumber-userguess < 5)
+    			AnnounceStatus("Surface of the Sun Hot!! Attempt "+tries);
+    		else if(randomnumber-userguess < 3)
+    			AnnounceStatus("Everything is melting!! Attempt "+tries);
+    		else if(randomnumber-userguess < 2)
+    			AnnounceStatus("Cant.Take.Heat.End this already!! Attempt "+tries);
+    		else if(randomnumber-userguess < 2)
+    			AnnounceStatus("Heat beyond human cognition! Attempt "+tries);
+    		else
+    			AnnounceStatus("Lukewarm! Attempt "+tries);
     	}
     	else
     	{
-    		AnnounceStatus("Cold!( Attempt "+tries);
+    		if(randomnumber-userguess > 65)
+    			AnnounceStatus("North Pole cold!! Attempt "+tries);
+    		else if(randomnumber-userguess > 45)
+    			AnnounceStatus("Freezing cold! Attempt "+tries);
+    		else
+    			AnnounceStatus("Colder! Attempt "+tries);
     	}
     }
 
