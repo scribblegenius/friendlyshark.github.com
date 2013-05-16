@@ -18,7 +18,7 @@ $(document).ready(function(){
     	userguess = guess;
     	var diff1 = randomnumber-userguess;
     	var diff2 = randomnumber-prevuserguess;
-    	display(prevuserguess + " " + userguess + " " + randomnumber);
+    	display(prevuserguess + " " + userguess + " " + randomnumber + " " + diff1);
     	if(userguess == randomnumber){
     		if(tries == 1)
     		{
@@ -54,7 +54,7 @@ $(document).ready(function(){
     			AnnounceStatus("Everything is melting!! Attempt "+tries);
     		if( diff1 < 2)
     			AnnounceStatus("Cant.Take.Heat.End this already!! Attempt "+tries);
-    		if(diff1 < 2)
+    		if( diff1 < 2)
     			AnnounceStatus("Heat beyond human cognition! Attempt "+tries);
     			
     	}
