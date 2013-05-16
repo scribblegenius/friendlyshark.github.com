@@ -21,10 +21,10 @@ $(document).ready(function(){
     	userguess = guess;
     	display(prevuserguess + " " + userguess + " " + randomnumber);
     	if(userguess == randomnumber){
-    		AnnounceStatus("Victory! You guessed it right! Guess again? ");
+    		AnnounceStatus("Victory!! Guess again? ");
     		InitializeGame();
     	}
-    	else if(Math.abs(randomnumber-userguess) > Math.abs( randomnumber - prevuserguess))
+    	else if(Math.abs(randomnumber-userguess) < Math.abs(randomnumber - prevuserguess))
     	{
     		AnnounceStatus("Hot!");
     	}
