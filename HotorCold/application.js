@@ -95,6 +95,7 @@ $('#playbutton').on('click',function(){
 	$(this).toggleClass('playclick');
 	$('.playscreen').slideToggle();
 	InitializeGame();
+	AnnounceStatus("Guess the number :D!");
 });
 
 $('#submit').on('click',function(){ 
