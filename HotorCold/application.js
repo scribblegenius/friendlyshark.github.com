@@ -100,6 +100,8 @@ $('#submit').on('click',function(){
 	CheckUserGuess($('#UserGuessTextBox').val());
 });
 
-
+function isNumber(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
 
 });
