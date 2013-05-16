@@ -47,33 +47,31 @@ $(document).ready(function(){
     		AnnounceStatus("Hotter! Attempt "+tries);
     		if( diff1 < 65)
     			AnnounceStatus("Kinda Warm! Attempt "+tries);
-    		else if( diff1 < 45)
+    		if( diff1 < 45)
     			AnnounceStatus("Warm! Attempt "+tries);
-    		else if( diff1 < 25)
+    		if( diff1 < 25)
     			AnnounceStatus("Warmer! Attempt "+tries);
-    		else if( diff1 < 15)
+    		if( diff1 < 15)
     			AnnounceStatus("Hotter! Attempt "+tries);
-    		else if( diff1 < 10)
+    		if( diff1 < 10)
     			AnnounceStatus("Red Hot! Attempt "+tries);
-    		else if(diff1 < 5)
+    		if(diff1 < 5)
     			AnnounceStatus("Surface of the Sun Hot!! Attempt "+tries);
-    		else if( diff1 < 3)
+    		if( diff1 < 3)
     			AnnounceStatus("Everything is melting!! Attempt "+tries);
-    		else if( diff1 < 2)
+    		if( diff1 < 2)
     			AnnounceStatus("Cant.Take.Heat.End this already!! Attempt "+tries);
-    		else if(diff1 < 2)
+    		if(diff1 < 2)
     			AnnounceStatus("Heat beyond human cognition! Attempt "+tries);
     			
     	}
     	else
     	{
-
+			AnnounceStatus("Colder! Attempt "+tries);
     		if(diff1 > 65)
     			AnnounceStatus("North Pole cold!! Attempt "+tries);
-    		else if(diff1 > 45)
+    		if(diff1 > 45)
     			AnnounceStatus("Freezing cold! Attempt "+tries);
-    		else
-    			AnnounceStatus("Colder! Attempt "+tries);
     	}
     }
 
