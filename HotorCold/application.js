@@ -3,12 +3,12 @@ $(document).ready(function(){
     var userguess =-1;
     var prevuserguess = -1;
     var tries =0;
+	AnnounceStatus("Guess the number :D!");
     function InitializeGame()
     {
     	tries=0;
     	userguess =-1;
     	prevuserguess = -1;
-    	AnnounceStatus("Guess the numer :D!");
     	if(randomnumber == -1)
     	{
     		randomnumber = Math.floor(Math.random() * 101) + 1;
@@ -37,7 +37,6 @@ $(document).ready(function(){
     		{
     			AnnounceStatus("Victory in " +tries +" attempts!! You are good!Guess again? ");
     		}
-    		InitializeGame();
     	}
     	else if(Math.abs(randomnumber-userguess) < Math.abs(randomnumber - prevuserguess))
     	{
