@@ -86,9 +86,9 @@ $(document).ready(function(){
 function lowerOrhigher()
 {
     if(randomnumber>userguess)
-        AnnounceStatus(AnnounceStatus.text()+" ( go higher! )")
+        AnnounceStatus($('#Announce').text()+" ( go higher! )")
     else
-        AnnounceStatus(AnnounceStatus.text()+" ( go lower! )");
+        AnnounceStatus($('#Announce').text()+" ( go lower! )");
 }
 function AnnounceStatus(text)
 {
