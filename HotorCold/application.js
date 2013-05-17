@@ -62,7 +62,7 @@ $(document).ready(function(){
     			AnnounceStatus("Cant.Take.Heat.End this already!! Attempt "+tries);
     		if( diff1 < 1)
     			AnnounceStatus("Heat beyond human cognition! Attempt "+tries);
-
+            lowerOrhigher();
     	}
     	else
     	{
@@ -75,6 +75,7 @@ $(document).ready(function(){
     			AnnounceStatus("Freezing cold! Attempt "+tries);
     		if(diff1 > 65)
     			AnnounceStatus("North Pole cold!! Attempt "+tries);
+             lowerOrhigher();
     	}
     }
     else
@@ -82,7 +83,13 @@ $(document).ready(function(){
     		AnnounceStatus("Enter a number from 1 to 100!");
     	}
 }
-
+function lowerOrhigher()
+{
+    if(randomnumber>userguess)
+        AnnounceStatus(AnnounceStatus.text()+" ( go higher! )")
+    else
+        AnnounceStatus(AnnounceStatus.text()+" ( go lower! )");
+}
 function AnnounceStatus(text)
 {
 	$('#Announce').text(text);
