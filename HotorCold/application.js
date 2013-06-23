@@ -75,7 +75,7 @@ $(document).ready(function(){
     			AnnounceStatus("Freezing cold! Attempt "+tries);
     		if(diff1 > 65)
     			AnnounceStatus("North Pole cold!! Attempt "+tries);
-             lowerOrhigher();
+            lowerOrhigher();
     	}
     }
     else
