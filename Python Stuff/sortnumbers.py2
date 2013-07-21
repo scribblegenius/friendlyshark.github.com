@@ -1,0 +1,16 @@
+import sys
+def SortNumericStringList(original):
+    newList = [float(x) for x in original]
+    newList.sort()
+    return newList
+try:
+	f=open(sys.argv[1],'r')
+	array_numbers =[]
+	for line in f:
+		if line.strip():
+			numbers = line.strip().split(" ")
+			newList = SortNumericStringList(numbers)
+			print( ' '.join( str(n) for n in sorted(newList)))
+except:
+	sys.exit(1)
+sys.exit(0)

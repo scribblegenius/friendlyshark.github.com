@@ -1,0 +1,13 @@
+jAVAsCRIPT LANGUAGE .
+hELLO WORLD!
+a LETTER
+ tESTs
+ST THING
+aPPLES, BeRRIES, ORAnGES
+	
+Per PEP8, don't do !=
+ None - if you want to 
+ compare against None 
+ (or any other singletons)
+ use is and is not. – 
+ lvc Jun 8 '12 at 7:24 

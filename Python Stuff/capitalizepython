@@ -1,0 +1,8 @@
+import sys
+try:
+	f=open(sys.argv[1],'r')
+	for line in f:
+		  print ' '.join([word[0].upper() + word[1:] for word in line.strip().split(" ")])
+except:
+	sys.exit(1)
+sys.exit(0)

@@ -1,0 +1,16 @@
+import sys
+import re
+def swapcase(letter):
+	if re.match("[a-z,A-z]",letter):
+		return chr(ord(letter) ^ ord(' '))
+	else:
+		return letter
+try:
+	f=open(sys.argv[1],'r')
+	for line in f:
+		for word in line.strip().split(" "):
+			print "".join([ swapcase(letter) for letter in word]),
+		print
+except Exception as e:
+	sys.exit(1)
+sys.exit(0)
