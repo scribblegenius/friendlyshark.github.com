@@ -1,8 +1,8 @@
 import sys
 try:
-	meal = float(raw_input('Enter price of meal before tax: '))
-	tax = float(raw_input('Enter tax percentage: '))/100
-	tip = float(raw_input('Enter tip percentage: '))/100
+	meal = float(sys.argv[1])
+	tax = float(sys.argv[2])/100
+	tip = float(sys.argv[3])/100
 	tax_value = (meal*tax)
 	meal_with_tax =  meal + tax_value
 	tip_value = meal_with_tax * tip
