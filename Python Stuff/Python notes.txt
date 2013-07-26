@@ -1,0 +1,16 @@
+commas creates the tuple not the parentheses
+
+def returns_tuple():
+	return 1,2,3
+
+a,b,c = returns_tuple()
+
+Make errors specific
+
+try:
+	1 + "h"
+except TypeError:
+	print "use a number"
+
+"{0} {0} {1} {0}".format("a","b")
+'a a b a'
