@@ -4,7 +4,7 @@ try:
 	parser = OptionParser()
 	parser.add_option("-m", "--meal", dest="meal", help="base meal cost")
 	parser.add_option("-x", "--tax", dest="tax", help="tax percentage")
-	parser.add_option("-t", "--tip", dest="tip", help="tip percentage")
+	parser.add_option("-t", "--tip", dest="tip", help="tip percentage" , default="15")
 	(options,args) = parser.parse_args()
 	meal = float(options.meal)
 	tax = float(options.tax)/100
