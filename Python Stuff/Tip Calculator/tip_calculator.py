@@ -19,4 +19,4 @@ try:
 	print "Tipping at a rate of {0}%, you should leave ${1} for a tip.".format( tip*100,tip_value)
 	print "The grand total of your meal is $%s."% (total)
 except Exception as e:
-	print "Inputs should be numbers!\nExiting..."
+	print "Inputs should be numbers!\nTypical usage: python tip_calculator -m 20 -x 15 -t 20\nExiting..."
