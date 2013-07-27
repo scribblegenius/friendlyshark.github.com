@@ -9,7 +9,6 @@ with this eBook or online at www.gutenberg.org
  
 Title: The Divine Comedy, Complete
        The Vision of Paradise, Purgatory and Hell
-       Hello
  
 Author: Dante Alighieri
  

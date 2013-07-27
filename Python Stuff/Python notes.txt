@@ -14,3 +14,5 @@ except TypeError:
 
 "{0} {0} {1} {0}".format("a","b")
 'a a b a'
+
+? in regex is used for the first occurrence in a .* search
