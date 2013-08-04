@@ -37,10 +37,13 @@ def printOutput():
 	  print "\n"
 def main(argv=sys.argv):
 	try:
-		loadDocuments(argv[1])
-		loadSearches()
-		printOutput()
+		if(len(argv)>1):
+			loadDocuments(argv[1])
+			loadSearches()
+			printOutput()
+		else:
+			print "Usage: document_tagger_final.py path searchstring"
 	except Exception as e:
-		print "Usage: document_tagger_final.py path searchstring"
+		print e
 if __name__ == '__main__':
 	main()
