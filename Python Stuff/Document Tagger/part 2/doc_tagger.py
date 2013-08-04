@@ -3,16 +3,10 @@ directory = sys.argv[1]
 documents = []
 for fl in (os.listdir(directory)):  #for each item that appears in the directory
     if fl.endswith('.txt'):       #if it's a text file
-        print 'Processing {0}.'.format(fl)
-
-        fl_path = os.path.join(directory, fl) #the full path to the file is the directory plus
-                                              #the file name
-
-        with open(fl_path, 'r') as f:         #open the file as f
+        with open(os.path.join(directory, fl), 'r') as f:         #open the file as f
             documents.append(f.read())   
-
 searches = {}
-for kw in sys.argv[2:]:
+for kw in sys.argv[2:]: 
   searches[kw] = re.compile(r'\b' + kw + r'\b', re.IGNORECASE)
 # PREPARE OUR REGEXES FOR METADATA SEARCHES #
 # we'll use re.compile() here, which allows you to assign a regex pattern
