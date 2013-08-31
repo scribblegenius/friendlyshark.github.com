@@ -3,8 +3,8 @@ class Task(object):
 		if( isinstance(title,str)):
 			self.title = title
 		else:
-			self.title=None
-			print "Title should be a string"
+			print "Title should be a string...unable to add Task"
+			self.title = None
 		if( isinstance(status,str)):
 			self.status = status
 		else:
