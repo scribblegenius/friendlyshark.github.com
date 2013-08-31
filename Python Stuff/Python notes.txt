@@ -16,3 +16,34 @@ except TypeError:
 'a a b a'
 
 ? in regex is used for the first occurrence in a .* search
+
+Order of args in classes
+
+super(ImportantTask,self).__init__(title=title,status = status,priority = priority)
+
+Put same stuff in each file all Tasks in one file
+
+only class names have uppercase names
+methods have underscores connecting
+
+all instances should be in the init otherwise its static
+for all instances of that class
+
+@classmethod
+method under it is a class method
+
+.done()
+
+string formatting instead of +
+
+setUp run before each method
+def setUpClass(cls) run once per class
+  self.™ = TaskManager("A")
+
+start tests with test_
+
+multi test manager
+ta = taskma a
+tb = taskma b
+
+
