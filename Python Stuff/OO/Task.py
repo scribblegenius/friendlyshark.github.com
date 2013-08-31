@@ -3,18 +3,18 @@ class Task(object):
 		if( isinstance(title,str)):
 			self.title = title
 		else:
-			print "Title should be a string..defaulting to None"
+			print " Title should be a string..defaulting to None"
 			self.title = None
 		if( isinstance(status,str)):
 			self.status = status
 		else:
 			self.status="Pending"
-			print "Status should be a string...defaulting to Pending"
+			print " Status should be a string...defaulting to Pending"
 		if( isinstance(priority,str)):
 			self.priority = priority
 		else:
 			self.priority=None
-			print "Priority should be a string...defaulting to None"
+			print " Priority should be a string...defaulting to None"
 	
 	def __str__(self):
 		return str("Task: " + str(self.title) + ", Priority: " + str(self.priority) + ", Status: " + str(self.status))
