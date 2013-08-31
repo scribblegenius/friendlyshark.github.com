@@ -8,7 +8,7 @@ class TaskManagerTest(unittest.TestCase):
 		self.tmA = TaskManager("A")
 		self.tmB = TaskManager("B")
 		print "--------------------------------------------------------------\n"
-	def test_adding_deleting(self):       #must start with test_...
+	def test_Adding_Deleting_Printing(self):       #must start with test_...
 		print "Test 4: Multiple Add , Delete and Print\n"
 		tm = self.tmA
 		tm.add_task(Task("Buy milk","Done","Trivial"))
@@ -23,7 +23,7 @@ class TaskManagerTest(unittest.TestCase):
 		tm.add_task(ImportantTask("Learn Python Classes","Pending"))
 		print self.tmB
 		self.assertEqual(len(tm.tasklist),2)
-	def test_delete(self):
+	def test_Delete_Non_Existent_Task(self):
 		print "Test 5: Delete Non-Existent Task\n"
 		tm = self.tmA
 		tm.del_task(100)
