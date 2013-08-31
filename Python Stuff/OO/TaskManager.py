@@ -6,6 +6,11 @@ class TaskManager(object):
 		self.name = name
 		print "Initializing Task Manager {0}...".format(self.name)
 
+	def __str__(self):
+		print " Printing Task List in Task Manager " + self.name
+		return ("\n".join( "	" + str(x+1) + " " +  str(y) for x,y in enumerate(self.tasklist)))
+
+	
 	def add_task(self,task):
 		add = True
 		for t in self.tasklist:
@@ -17,10 +22,6 @@ class TaskManager(object):
 			print " Added {0}, to Task Manager {1} ".format(str(task), self.name)
 		else:
 			print ' Tried to add "{0}", however this task already exists! Unable to add duplicate Task!'.format(task.title)
-
-	def __str__(self):
-		print " Printing Task List in Task Manager " + self.name
-		return ("\n".join( "	" + str(x+1) + " " +  str(y) for x,y in enumerate(self.tasklist)))
 
 	def del_task(self,number):
 		if ( self.size() >= number ):
