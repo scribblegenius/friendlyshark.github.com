@@ -31,7 +31,7 @@ class TaskManagerTest(unittest.TestCase):
 		print "Test 2: Check if multiple taskmanagers can be created\n"
 		self.tmA.add_task(Task("Buy milk","Done","Trivial"	))
 		self.tmA.add_task(Task("Buy car","Done","Important"	))
-		self.tmA.add_task(Task("Buy jet","Done","Trivial"	))
+		self.tmA.add_task(Task("Buy jet","Pending","Trivial"	))
 		self.tmB.add_task(Task("Move to Mars","Pending","Important"	))
 		print "\n\n"
 		print self.tmA 
