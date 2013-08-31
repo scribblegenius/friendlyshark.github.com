@@ -4,7 +4,7 @@ class TaskManager(object):
 	def __init__(self,name):
 		self.tasklist = []
 		self.name = name
-		print "Task Manager {0} Started".format(self.name)
+		print "Initializing Task Manager {0}...".format(self.name)
 
 	def add_task(self,task):
 		add = True
