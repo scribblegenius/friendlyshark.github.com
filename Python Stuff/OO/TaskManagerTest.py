@@ -18,7 +18,7 @@ class TaskManagerTest(unittest.TestCase):
 		tm.del_task(1)
 		tm.do_task(2)
 		print tm
-		self.tmB.add_task(Task("Buy gold","Done","Pending"))
+		self.tmB.add_task(Task("Buy gold","Trivial","Pending"))
 		self.tmB.add_task(ImportantTask("Conquer self","Done"))
 		tm.add_task(ImportantTask("Learn Python Classes","Pending"))
 		print self.tmB
