@@ -26,7 +26,7 @@ header h1.logo {
 }
  
 header h1.logo:hover {
-  color: #fff;
+  color: red;
   text-decoration: none;
 }
  
