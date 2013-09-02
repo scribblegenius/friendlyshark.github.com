@@ -13,16 +13,25 @@ img
 }
 #buttons
 {
-	margin-top: 16px;
-	margin-left:40%;
-	width:inherit;
+	clear:both;
+	margin: 0 auto;
+	width:300px;
+	margin-top: 1.5em;
+}
+#inputbox
+{
+	clear:both;
+	width:600px;
+	height: 23px;
+	margin: 0 auto 0 ;	
+
 }
 input
 {
 	clear:both;
-	width:565px;
+	width:540px;
 	height: 23px;
-	margin-left: 33.3%;
+	margin: 0 auto;	
 }
 a
 {
