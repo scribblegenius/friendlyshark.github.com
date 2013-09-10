@@ -46,4 +46,8 @@ multi test manager
 ta = taskma a
 tb = taskma b
 
+def unicode string check
 
+TaskAlreadyExistsError(Exception):
+	pass
+self.assertRaises(TaskAlreadyExistsError,™.del_task(
