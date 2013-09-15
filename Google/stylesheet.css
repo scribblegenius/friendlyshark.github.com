@@ -19,7 +19,7 @@ img
 {
 	clear:both;
 	margin: 0 auto ;
-	width:240px ;
+	width:300px ;
 	margin-top: 1.5em;
 }
 #inputbox
@@ -48,7 +48,7 @@ a
 }
 button.hover
 {
-	
+
 }
 #Signin
 {
@@ -132,4 +132,3 @@ footer
    margin-bottom: 10px;
    margin-left: 58%;
 }
-
